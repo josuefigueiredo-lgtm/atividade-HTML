@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Aluno">
+<meta name="description" content="ByteTech - Soluções Digitais">
+<title>ByteTech</title>
+
+<style>
+
+body{
+    background-color: #e8edf2;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header{
+    background-color: #003049;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header img{
+    width: 300px;
+    margin-top: 15px;
+}
+
+blockquote{
+    margin-top: 15px;
+    font-style: italic;
+}
+
+main{
+    width: 75%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+h1, h2{
+    margin-bottom: 15px;
+}
+
+ol{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #003049;
+    color: white;
+}
+
+tr:hover{
+    background-color: #d9e2ec;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="submit"]{
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    background-color: #005f73;
+}
+
+footer{
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer a{
+    color: #fcbf49;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+address{
+    margin-top: 10px;
+    font-style: normal;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ByteTech</h1>
+<p>
+<strong>ByteTech</strong> oferece soluções <i>tecnológicas</i> com foco em 
+<u>qualidade e inovação</u>.
+</p>
+
+<img src="https://via.placeholder.com/400x150" alt="Logo da empresa">
+
+<blockquote>
+"Conectando pessoas à tecnologia."
+</blockquote>
+</header>
+
+<main>
+
+<section>
+<h2>Quem Somos</h2>
+<p>
+A ByteTech atua no mercado digital desenvolvendo sistemas,
+oferecendo suporte técnico e consultoria especializada.
+</p>
+</section>
+
+<section>
+<h2>Principais Serviços</h2>
+<ol type="I">
+<li>Criação de Sites</li>
+<li>Desenvolvimento de Sistemas</li>
+<li>Consultoria em TI</li>
+<li>Suporte Técnico</li>
+</ol>
+</section>
+
+<section>
+<h2>Planos Disponíveis</h2>
+
+<table>
+<thead>
+<tr>
+<th>Plano</th>
+<th>Benefícios</th>
+<th>Valor</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Básico</td>
+<td>Suporte simples</td>
+<td>R$ 180</td>
+</tr>
+
+<tr>
+<td>Intermediário</td>
+<td>Suporte + Sistema</td>
+<td>R$ 350</td>
+</tr>
+
+<tr>
+<td>Avançado</td>
+<td>Completo</td>
+<td>R$ 650</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+
+<section>
+<h2>Solicite um Orçamento</h2>
+
+<form>
+
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required>
+
+<hr>
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required>
+
+<hr>
+
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required>
+
+<hr>
+
+<p>Tipo de Atendimento:</p>
+<input type="radio" name="atendimento" value="online" required> Online
+<input type="radio" name="atendimento" value="presencial" required> Presencial
+
+<hr>
+
+<input type="checkbox" name="novidades" required> Desejo receber novidades
+
+<hr>
+
+<label for="servico">Serviço desejado:</label>
+<select id="servico" name="servico" required>
+<option value="">Selecione</option>
+<option value="site">Criação de Site</option>
+<option value="sistema">Sistema</option>
+<option value="consultoria">Consultoria</option>
+<option value="suporte">Suporte</option>
+</select>
+
+<hr>
+
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+<hr>
+
+<input type="submit" value="Enviar">
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>© 2026 - ByteTech</p>
+
+<ul>
+<li><a href="#">Instagram</a></li>
+<li><a href="#">LinkedIn</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+
+<address>
+contato@bytetech.com <br>
+Telefone: (77) 97777-0000
+</address>
+
+<p>
+Consumo de CO<sub>2</sub> e fórmula E = mc<sup>2</sup>
+</p>
+
+</footer>
+
+</body>
+</html>
